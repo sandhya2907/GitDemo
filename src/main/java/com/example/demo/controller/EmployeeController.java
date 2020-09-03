@@ -25,6 +25,7 @@ public class EmployeeController {
 	@GetMapping("/register")
 	public String showPage(Model model) {
 		model.addAttribute("employee", new Employee());
+		System.out.println("Hello Page");
 		return "RegisterPage";
 		
 		
