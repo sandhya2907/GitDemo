@@ -10,7 +10,7 @@ import javax.persistence.Table;
 @Table(name = "tab_emp")
 public class Employee {
 	@Id
-	@GeneratedValue
+	
 	@Column(name = "id")
 	private Integer id;
 	@Column(name = "name")
